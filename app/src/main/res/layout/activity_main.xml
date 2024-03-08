@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AFBC6"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Khulna"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#9A9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:src="@drawable/jessore"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jessore is a city of Jessore District in Khulna Division. It lies in southwestern Bangladesh. It is home to the first flight training school of the Bangladeshi Air Force, established in 1971. It is the administrative centre (headquarter) of the eponymous district and the third largest and second developed city in Khulna Division. It is one of the industrious and developed cities in Bangladesh. Jessore city consists of 9 wards and 73 mahalls. Jashore municipality was established in 1864.  The area of the town is 21.15 km2. It has a population of about 298,000 according to the record of Jessore municipality. Jessore also has a domestic airport named as Jessore Airport.\n\nName\n\nThe present-day city of Jessore was originally known as Kasba. The current name was originally acquired from the name of the surrounding pargana and zamindari estate of Jessore, or Jesar, when Kasba became its capital. The district's name was also applied to its two previous capitals, which are now known as Ishwaripur and Murali, respectively, so early mentions of Jessore are not referring to the modern town.\nThe name Jessore is traditionally explained as a derivation from the Sanskrit name Yaśohara, meaning glory-depriving.The name originally applied to the town now called Ishwaripur,  which was founded sometime after 1573-74 by Vikramaditya, father of Pratapaditya. According to J. Westland, glory-depriving may have been used in the sense of so glorious that it makes other cities seem humble in comparison. An inscription at Kanhaynagar records a similar epithet for that place: ruchira-ruchi-hara, or depriving of beauty that which is beautiful.\n\nHistory\n\nMain article: History of Jessore\n\nThe Ain-i Akbari lists a pargana of Jesar as part of sarkar Khalifatabad. This Jesar is a reference to today's Ishwaripur. Ishwaripur is also the Jesar mentioned in the Bahāristān-i Ghaibī. The zamindars of Jesar later shifted their capital to Murali and then to nearby Kasba, and the name Jessore was transferred to each of them in succession. One or both of these shifts had happened by around 1660, when Mattheus van den Broucke's map of Bengal shows a Jessoor in the same spot as today's city; however, because Murali and Kasba are so close together, it's uncertain which one specifically is being shown here.\nIt was the capital of Pratapaditya, the one and only Hindu ruler of the 12 Bhuiyas of Bengal, who had also famously fought against Mughal intrusion in East Bengal. He was defeated by Mughal forces and his territories were annexed into the Mughal Empire.\nIt was the first district to be freed and taken back by Bengali rule in the Liberation War, on 8 December 1971."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
